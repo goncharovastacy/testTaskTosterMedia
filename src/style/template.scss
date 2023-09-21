@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro/GothamPro_400.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro/GothamPro_700.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+$blackcolor: #2c2b31;
+$whitecolor: #fff;
+$greycolor: #f0f0f0;
+$greencolor: #37d997;
+
+@mixin font {
+  font-family: "Gotham Pro", sans-serif;
+}
