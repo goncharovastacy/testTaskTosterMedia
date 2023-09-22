@@ -8,107 +8,109 @@
     <title>Тестовое для Toster Media</title>
   </head>
   <body>
-    <div class="advertise">
-      <h2>🇿🇦 SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA 🇿🇦</h2>
+    <div class="wrapper">
+      <div class="advertise">
+        <h2>🇿🇦 SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA 🇿🇦</h2>
+      </div>
+      <main>
+        <div class="logo-wrapper">
+          <div class="logo"><img src="./src/img/logo.svg" alt="logo" /></div>
+        </div>
+        <div class="offer">
+          <div class="offer__prices">
+            <div class="offer__price offer__price_first">
+              <p>LIMITED OFFER</p>
+              <p id="timer"></p>
+            </div>
+            <div class="offer__price offer__price_second">
+              <p id="ex-price">R <span></span><span class="line"></span></p>
+              <p id="new-price">R <span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="catalog">
+          <div class="catalog__rate">
+            <p class="catalog__rate__p">Excellent 4.8/5</p>
+            <div class="catalog__rate__image">
+              <img src="./src/img/Group147.svg" alt="rate image" />
+            </div>
+            <p class="catalog__rate__p_green">best selling</p>
+          </div>
+          <div class="catalog__card">
+            <div class="catalog__card__item">
+              <h3>ORTHOPEDIC SLIPPERS</h3>
+              <div class="catalog__card__item__tabs">
+                <div
+                  class="catalog__card__item__tabs__tab active"
+                  data-tab-content="1"
+                >
+                  <img src="./src/img/black.png" alt="black slippers" />
+                </div>
+                <div class="catalog__card__item__tabs__tab" data-tab-content="2">
+                  <img src="./src/img/orange.png" alt="orange slippers" />
+                </div>
+                <div class="catalog__card__item__tabs__tab" data-tab-content="3">
+                  <img src="./src/img/pink.png" alt="pink slippers" />
+                </div>
+                <div class="catalog__card__item__tabs__tab" data-tab-content="4">
+                  <img src="./src/img/yellow.png" alt="yellow slippers" />
+                </div>
+                <div class="catalog__card__item__tabs__nav">
+                  <a href="#" class="tab__navs" data-tab="1"
+                    ><img src="./src/img/black.png" alt="black slippers"
+                  /></a>
+                  <a href="#" class="tab__navs" data-tab="2"
+                    ><img src="./src/img/orange.png" alt="orange slippers"
+                  /></a>
+                  <a href="#" class="tab__navs" data-tab="3"
+                    ><img src="./src/img/pink.png" alt="pink slippers"
+                  /></a>
+                  <a href="#" class="tab__navs" data-tab="4"
+                    ><img src="./src/img/yellow.png" alt="yellow slippers"
+                  /></a>
+                </div>
+              </div>
+              <p class="catalog__card__item__delivery">
+                Fast Delivery: <span>2-4 days from SA 🇿🇦</span>
+              </p>
+              <p class="catalog__card__item__stock">
+                In Stock: <span>Shipping from Johannesburg 🇿🇦</span>
+              </p>
+              <div class="catalog__card__item__rate">
+                <img src="./src/img/stars.svg" alt="star" />
+                <img src="./src/img/stars.svg" alt="star" />
+                <img src="./src/img/stars.svg" alt="star" />
+                <img src="./src/img/stars.svg" alt="star" />
+                <img src="./src/img/stars.svg" alt="star" />
+                <p>(10)</p>
+              </div>
+            </div>
+            <div class="catalog__card__selects">
+              <div class="catalog__card__select">
+                <p>color</p>
+                <select name="Color">
+                  <option value="Black">BLACK</option>
+                  <option value="Orange">ORANGE</option>
+                  <option value="Pink">PINK</option>
+                  <option value="Yellow">YELLOW</option>
+                </select>
+              </div>
+              <div class="catalog__card__select">
+                <p>size</p>
+                <select name="size">
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="catalog__button">
+            <a href="https://www.youtube.com/">BUY NOW</a>
+          </div>
+        </div>
     </div>
-    <main>
-      <div class="logo-wrapper">
-        <div class="logo"><img src="./src/img/logo.svg" alt="logo" /></div>
-      </div>
-      <div class="offer">
-        <div class="offer__prices">
-          <div class="offer__price offer__price_first">
-            <p>LIMITED OFFER</p>
-            <p id="timer"></p>
-          </div>
-          <div class="offer__price offer__price_second">
-            <p id="ex-price">R <span></span><span class="line"></span></p>
-            <p id="new-price">R <span></span></p>
-          </div>
-        </div>
-      </div>
-      <div class="catalog">
-        <div class="catalog__rate">
-          <p class="catalog__rate__p">Excellent 4.8/5</p>
-          <div class="catalog__rate__image">
-            <img src="./src/img/Group147.svg" alt="rate image" />
-          </div>
-          <p class="catalog__rate__p_green">best selling</p>
-        </div>
-        <div class="catalog__card">
-          <div class="catalog__card__item">
-            <h3>ORTHOPEDIC SLIPPERS</h3>
-            <div class="catalog__card__item__tabs">
-              <div
-                class="catalog__card__item__tabs__tab active"
-                data-tab-content="1"
-              >
-                <img src="./src/img/black.png" alt="black slippers" />
-              </div>
-              <div class="catalog__card__item__tabs__tab" data-tab-content="2">
-                <img src="./src/img/orange.png" alt="orange slippers" />
-              </div>
-              <div class="catalog__card__item__tabs__tab" data-tab-content="3">
-                <img src="./src/img/pink.png" alt="pink slippers" />
-              </div>
-              <div class="catalog__card__item__tabs__tab" data-tab-content="4">
-                <img src="./src/img/yellow.png" alt="yellow slippers" />
-              </div>
-              <div class="catalog__card__item__tabs__nav">
-                <a href="#" class="tab__navs" data-tab="1"
-                  ><img src="./src/img/black.png" alt="black slippers"
-                /></a>
-                <a href="#" class="tab__navs" data-tab="2"
-                  ><img src="./src/img/orange.png" alt="orange slippers"
-                /></a>
-                <a href="#" class="tab__navs" data-tab="3"
-                  ><img src="./src/img/pink.png" alt="pink slippers"
-                /></a>
-                <a href="#" class="tab__navs" data-tab="4"
-                  ><img src="./src/img/yellow.png" alt="yellow slippers"
-                /></a>
-              </div>
-            </div>
-            <p class="catalog__card__item__delivery">
-              Fast Delivery: <span>2-4 days from SA 🇿🇦</span>
-            </p>
-            <p class="catalog__card__item__stock">
-              In Stock: <span>Shipping from Johannesburg 🇿🇦</span>
-            </p>
-            <div class="catalog__card__item__rate">
-              <img src="./src/img/stars.svg" alt="star" />
-              <img src="./src/img/stars.svg" alt="star" />
-              <img src="./src/img/stars.svg" alt="star" />
-              <img src="./src/img/stars.svg" alt="star" />
-              <img src="./src/img/stars.svg" alt="star" />
-              <p>(10)</p>
-            </div>
-          </div>
-          <div class="catalog__card__selects">
-            <div class="catalog__card__select">
-              <p>color</p>
-              <select name="Color">
-                <option value="Black">BLACK</option>
-                <option value="Orange">ORANGE</option>
-                <option value="Pink">PINK</option>
-                <option value="Yellow">YELLOW</option>
-              </select>
-            </div>
-            <div class="catalog__card__select">
-              <p>size</p>
-              <select name="size">
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-              </select>
-            </div>
-          </div>
-        </div>
-        <div class="catalog__button">
-          <a href="https://www.youtube.com/">BUY NOW</a>
-        </div>
-      </div>
     </main>
     <script src="./src/scipts/script.js"></script>
   </body>
